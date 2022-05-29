@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #141C24;
+    min-width: 1280px;
+}
+
+#conteiner {
+    display: flex;
+    width: 100%;
+    /* height: 4660px; */
+
+    background: #141C24;
+}
+
+#header {
+    position: absolute;
+    width: 100%;
+    min-width: 1280px;
+    height: 123px;
+    left: 0px;
+    top: 0px;
+    background: #141C24;
+
+    z-index: 2;
+}
+
+
+#clear {
+    clear: both;
+}
+
+#footer {
+    width: 100%;
+    height: 150px;
+
+    background: #171717;
+}
+
+#header_logo{
+    /* Group 33 */
+    position: absolute;
+    width: 189px;
+    height: 27.45px;
+    left: 10%;
+    top: 47px;
+    
+}
+
+.roboto_1{
+    /* H6 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100%;
+    line-height: 180%;
+    margin: 1px;
+}
+
+.roboto_2{
+    /* H5 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21.33px;
+    line-height: 150%;
+}
+
+.odibee_sans{
+    font-family: 'Odibee Sans', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+    color: #ffffff;
+}
+
+.line{
+    border: 1px solid #00C5FF;
+}
+
+.line_2{
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    transform: rotate(180deg);
+}
+
+.hr_1{
+    width: 2182px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transform: rotate(90deg);
+    position: absolute;
+    left: 5%;
+    top: 901px;
+}
+
+#header_menu{
+    position: absolute;
+
+}
+
+.menu {
+    width: 800px;
+    margin-top: 44px;
+    position: absolute;
+    right: 10%;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu-line {
+    border-bottom: 2px solid #00C5FF ;
+}
+
+
+
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#content_slide_box{
+
+    width: 100%;
+    min-width: 1280px;
+    height: 110vh;
+    min-height: 720px;
+
+
+    background: linear-gradient(360deg, #141C24 0%, rgba(20, 28, 36, 0) 95.65%);
+}
+
+.sticky{
+    box-sizing: border-box;
+    position: fixed;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 90vw;
+    height: 90vh;
+    max-width: calc(16 / 9 * 100vh);
+
+    background: radial-gradient(49.95% 96.01% at 50.05% 49.91%, rgba(82, 125, 139, 0) 0%, rgba(82, 125, 139, 0.25) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(STALKER-2-Heart-of-Chernobyl-Background-Photos.jpg);
+    border: 0.5px solid #57D6FF;
+    box-shadow: 0 0 100px rgba(40, 211, 188, 0.315);
+    border-radius: 15px;
+    z-index: 1;
+}
+.stop{
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 90vw;
+    height: 90vh;
+    max-width: calc(16 / 9 * 100vh);
+
+    background: radial-gradient(49.95% 96.01% at 50.05% 49.91%, rgba(82, 125, 139, 0) 0%, rgba(82, 125, 139, 0.25) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(STALKER-2-Heart-of-Chernobyl-Background-Photos.jpg);
+    border: 0.5px solid #57D6FF;
+    box-shadow: 0 0 100px rgba(40, 211, 188, 0.315);
+    border-radius: 15px;
+}
+
+#content_slide{
+    /* Rectangle 71 */
+    box-sizing: border-box;
+
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 90vw;
+    height: 90vh;
+    max-width: calc(16 / 9 * 90vh);
+
+    background: radial-gradient(49.95% 96.01% at 50.05% 49.91%, rgba(82, 125, 139, 0) 0%, rgba(82, 125, 139, 0.25) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(STALKER-2-Heart-of-Chernobyl-Background-Photos.jpg);
+    border: 0.5px solid #57D6FF;
+    box-shadow: 0 0 100px rgba(40, 211, 188, 0.315);
+    border-radius: 15px;
+    
+
+    z-index: 1;
+}
+
+
+.box_row{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#image_server_host{
+    /* Облачый гейминг */
+    width: 664.58px;
+    height: 383.98px;
+}
+
+#server_host_text{
+    /* Облачый гейминг */
+    width: 480px;
+    height: 517px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#server_host_text p{
+    width: 100%;
+    color: #ABABAB;
+}
+
+#server_host_text hr{
+    color: rgba(255, 255, 255, 0.2);
+    width: 241px;
+}
+
+.box{
+    display: flex;
+    width: 90%;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.tarif{
+    width: 400px;
+    height: 543px;
+
+    background: #00C5FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+#location{
+    /* Карта локаций */
+    margin: 0 auto;
+    width: 725.23px;
+    height: 395.35px;
+    margin-top: 75px;
+}
+
+.hreff{
+    text-decoration: none;
+    color: #57D6FF;
+}
+
+#footer_logo{
+    width: 211.82px;
+    height: 37.32px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* download.html */
+
+
+/* account.html */
+
+.forma {
+    width: 100%;
+    height: 75px;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.send{
+    width: 250px;
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-left: calc(50% - 125px);
+    font-weight: bolder;
+}
+
+.check{
+    width: 25px;
+    height: 25px;
+}
+
+.in:target {
+    display: none;
+}

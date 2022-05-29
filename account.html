@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WARPLAY.CLOUD - Скачать</title>
+</head>
+<body>
+<div id="conteiner">
+    <script>
+        $(function () {
+            var use_privacy = true;
+            $('#form1').on('submit', function (e) {
+                if (use_privacy) {
+                    if (!$(this).find('input[name=privacy]').prop('checked')) {
+                        alert('Для продолжения вы должны принять условия Пользовательского соглашения');
+                        return false;
+                    }
+                }
+                document.write('Форма успешно отправлена!');
+
+                e.preventDefault();
+            });
+        });
+    </script>
+    <div class="box">
+        <form style="width: 25%;">
+            <a href="./index.html"><img style="margin-left: calc(50% - 106px); margin-bottom: 50px;" src="./icon/logo_white.svg" alt=""></a>
+            <div style="display: flex; align-items: center; justify-content: space-around;">
+                <h2 class="odibee_sans">Регистрация</h2>
+                <h2 class="odibee_sans" style="color: rgba(255, 255, 255, 0.5);">Вход</h2>
+            </div>
+
+            <input type="email" placeholder="Почта" class="roboto_2 forma">
+            <input type="password" placeholder="Пароль" class="roboto_2 forma">
+            <input type="submit" value="Зарегистрироваться" class="roboto_2 send"/>
+            <div style="display: flex; justify-content: space-between; flex-direction: row; margin-top: 60px;">
+                <input type="checkbox" class="roboto_1 check" id="in" required>
+                <div id="check_text in" style="width: 85%; color: #ffffff; font-size: 12px; height: 150px;" class="roboto_1">Я соглашаюсь со следующими установленными правилами: 
+                Политика использования файлов cookie WARPLAY.CLOUD, 
+                Пользовательское соглашение WARPLAY.CLOUD, Лицензионное 
+                соглашение MY.GAMES с конечным пользователем в отношении Игр, 
+                Лицензионное соглашение с конечным Пользователем для 
+                WARPLAY.CLOUD Игрового центра, Политика конфиденциальности 
+                портала WARPLAY.CLOUD, Политика конфиденциальности WARPLAY.CLOUD для детей</div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

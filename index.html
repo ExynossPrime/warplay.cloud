@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WARPLAY.CLOUD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./slider/chief-slider.css">
+    <script defer src="./slider/chief-slider.js"></script>
+    <script defer src="content_slide.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const slider = new ChiefSlider('.slider', {
+            loop: true,
+            autoplay: true,
+            interval: 7000,
+            swipe: true
+          });
+        });
+      </script>
+</head>
+<body>
+<div id="conteiner">
+    <div id="header">
+        <a href="index.html"><img id="header_logo" src="icon/logo.svg"></a>
+        
+        <div class="menu">
+            <ul class="menu__items roboto_1 ">
+                <li class="menu-line"><a href="./index.html">Главная</a></li>
+                <li><a href="./servers.html">Сервера</a></li>
+                <li><a href="./download.html">Скачать</a></li>
+                <li><a href="./servers.html">Открыть в браузере</a></li>
+                <li><a href="./servers.html">Цены</a></li>
+                <li><a href="./servers.html">Тех поддержка</a></li>
+                <li><a href="./contacts.html">Контакты</a></li>
+                <li><a href="./account.html" style="margin-left: 20px;"><b><font color="#00C5FF">Войти</font></b></a></li>
+            </ul>
+        </div>
+        
+        </div>
+    </div>
+    
+    <article id="content_slide_box">
+        <aside id="content_slide">
+            <div class="slider">
+                <div class="slider__container">
+                  <div class="slider__wrapper">
+                    <div class="slider__items">
+                        <div class="slider__item">
+                            <img src="./img/ghostrunner.jpg" alt="">
+                            <p style="position: absolute; top: 50%; left: calc(50% - 316px);" class="odibee_sans">Преврати своё устройство в игровое</p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="./img/devil_may_cry.jpg" alt="">
+                            <p style="position: absolute; top: 50%; left: calc(50% - 316px);" class="odibee_sans">Преврати своё устройство в игровое</p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="./img/destiny-warlock-kostyum-shlem.jpg" alt="">
+                            <p style="position: absolute; top: 50%; left: calc(50% - 316px);" class="odibee_sans">Преврати своё устройство в игровое</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+                <a href="#" class="slider__control" data-slide="prev"></a>
+                <a href="#" class="slider__control" data-slide="next"></a>
+                <ol class="slider__indicators">
+                    <li data-slide-to="0"></li>
+                    <li data-slide-to="1"></li>
+                    <li data-slide-to="2"></li>
+                  </ol>
+              </div>
+            </aside>
+    </article>
+
+    <div style="justify-content: space-around;" class="box_row">
+        <img id="image_server_host" src="./img/ImageServerHost.svg" alt="">
+        <div id="server_host_text">
+            <div style="display: flex; align-items: center;">
+                <div class="line" style="margin-right: 15px; width: 50px; top: 20px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); transform: rotate(180deg);"></div>
+                <h6 class="roboto_1" style="color: #00C5FF; ">Облачный гейминг</h6>
+            </div>
+            <h2 class="odibee_sans">Как это работает</h2>
+            <p class="roboto_2">Наши сервера запускают игру, и передают
+            вам картинку, которой вы можете управлять
+            в реальном времени!</p>
+            <hr align="left">
+            <p class="roboto_2">Приложение  запустится на ПК с процессором
+            от 1.5 GHz , от 1 Gb RAM и доступом в интернет
+            от 15 мбит/с
+             на всех операционых системах
+            Windows 7, 8, 10 MacOS и Linux .</p>
+            <a href="./download.html" class="menu-line hreff roboto_1" style="width: 75px;">Загрузить</a>
+        </div>
+    </div>
+    <div class="box">
+        <div>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <div class="line" style="margin-right: 25px; width: 50px; top: 20px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); transform: rotate(180deg);"></div>
+                <h6 class="roboto_1" style="color: #00C5FF; ">Быстрый старт</h6>
+            </div>
+            <h2 class="odibee_sans">Начни играть</h2>
+        </div>
+        <div style="width: 90%;display: flex; align-items: center; justify-content: space-around;">
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <img src="./icon/Mail Contact.svg" alt="">
+                <h5 class="roboto_1" style="font-size: 21.5px; color:#00C5FF; margin-top: 12px;">Создайте аккаунт</h5>
+            </div>
+            <div class="line" style="margin-bottom: 40px;; width: 70px; top: 20px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); transform: rotate(180deg);"></div>
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <img src="./icon/Download from the Cloud.svg" alt="">
+                <h5 class="roboto_1" style="font-size: 21.5px; color:#00C5FF; margin-top: 12px;">Скачайте модуль</h5>
+            </div>
+            <div class="line" style="margin-bottom: 25px;; width: 70px; top: 20px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); transform: rotate(180deg);"></div>
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <img src="./icon/Library.svg" alt="">
+                <h5 class="roboto_1" style="font-size: 21.5px; color:#00C5FF; margin-top: 12px;">Выберите тариф</h5>
+            </div>
+            <div class="line" style="margin-bottom: 25px;; width: 70px; top: 20px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); transform: rotate(180deg);"></div>
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <img src="./icon/Apple Arcade.svg" alt="">
+                <h5 class="roboto_1" style="font-size: 21.5px; color:#00C5FF; margin-top: 12px;">Начните играть</h5>
+            </div>
+        </div>
+        <a href="" class="menu-line hreff roboto_1">Начать</a>
+    </div>
+
+    <div class="box">
+        <div>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <div class="line" style="margin-right: 25px; width: 50px; top: 20px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); transform: rotate(180deg);"></div>
+                <h6 class="roboto_1" style="color: #00C5FF; ">Гибкие тарифы</h6>
+            </div>
+            <h2 class="odibee_sans">Доступные подписки</h2>
+            <div style="width: 100%; display: flex; justify-content: space-around; align-items: center; flex-direction: row;">
+                <div class="tarif">
+                    <h2 class="odibee_sans" style="font-size: 30px;">Начни играть</h2>
+                </div>
+                <div class="tarif">
+                    <h2 class="odibee_sans" style="font-size: 30px;">Начни играть</h2>
+                </div>
+                <div class="tarif">
+                    <h2 class="odibee_sans" style="font-size: 30px;">Начни играть</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="line" style="width: 50%; top: 20px; transform: rotate(180deg);"></div>
+    </div>
+
+    <div class="box_row">
+        <div style="margin-left: 10%;" id="server_host_text">
+            <div style="display: flex; align-items: center;">
+                <div class="line" style="margin-right: 15px; width: 50px; top: 20px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); transform: rotate(180deg);"></div>
+                <h6 class="roboto_1" style="color: #00C5FF; ">Играть можно в браузере</h6>
+            </div>
+            <h2 class="odibee_sans">Запускайте на любых устройствах</h2>
+            <p class="roboto_2">Наш модуль доступен на все популярные ОС
+                и работает на всех компьютерах.</p>
+            <a href="./download.html" class="menu-line hreff roboto_1" style="width: 148px;">Открыть в браузере</a>
+        </div>
+        <img src="./img/ImageBrowser.png" alt="">
+    </div>
+
+    <div style="justify-content: center;" class="box">
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <div class="line" style="margin-right: 25px; width: 50px; top: 20px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); transform: rotate(180deg);"></div>
+            <h6 class="roboto_1" style="color: #00C5FF; ">Игровые сервера на карте</h6>
+        </div>
+        <h2 class="odibee_sans">Карта локаций</h2>
+        <a href=""><img id="location" src="./img/location.svg" alt=""></a>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <img id="footer_logo" src="./icon/logo_white.svg" alt="">
+    </div>
+</div>
+</body>
+</html>
